@@ -1,0 +1,14 @@
+-> When something goes wrong with a file, make sure "on player", "coming" and
+   "leaving" lists stay in sync.
+-> Display dialog on start-up if no player selected, encouraging user to do so
+   now.
+-> Independently track what user checked and what is on the device.
+-> Enable/disable "eject" and "sync" buttons correctly depending on whether
+   there still is a player or not.
+-> Make icon/disclosure triangle column automatically become larger if indent goes deeper. Otherwise icon draws half across name.
+ √ Allow syncing whole playlists. If tracks are removed from such a playlist,
+   they should automatically be deleted from the player next time we sync, and
+   if ones are added they should be copied over. Option-click checkbox to just
+   select all tracks that are *currently* in the playlist?
+ √ We're probably confusing users with a brushed-metal-behaving Aqua window.
+   Find a better pattern.

@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D07A7EB087C51B8008FCE3C /* itunes_podcasts.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D07A7E9087C51B8008FCE3C /* itunes_podcasts.png */; };
+		3D17BB0E08644BFF000DD11D /* blue_gradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D17BB0C08644BFF000DD11D /* blue_gradient.jpg */; };
+		3D17BB4608645368000DD11D /* sync_btn_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D17BB4008645368000DD11D /* sync_btn_disabled.png */; };
+		3D17BB4708645368000DD11D /* sync_btn_enabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D17BB4208645368000DD11D /* sync_btn_enabled.png */; };
+		3D17BB4808645368000DD11D /* sync_btn_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D17BB4408645368000DD11D /* sync_btn_pressed.png */; };
+		3D2E6D9E0862252F006E6091 /* itunes_library.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E6D980862252F006E6091 /* itunes_library.png */; };
+		3D2E6D9F0862252F006E6091 /* itunes_simple_playlist.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E6D9A0862252F006E6091 /* itunes_simple_playlist.png */; };
+		3D2E6DA00862252F006E6091 /* itunes_smart_playlist.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2E6D9C0862252F006E6091 /* itunes_smart_playlist.png */; };
+		3D46A47B085E187A0066EB49 /* UKTrackStorerAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D46A479085E187A0066EB49 /* UKTrackStorerAppDelegate.h */; };
+		3D46A47C085E187A0066EB49 /* UKTrackStorerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D46A47A085E187A0066EB49 /* UKTrackStorerAppDelegate.m */; };
+		3D6EF355093AE5FB00159BD0 /* PathArrow.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3D6EF34F093AE5FB00159BD0 /* PathArrow.tiff */; };
+		3D6EF356093AE5FB00159BD0 /* UKFeedbackProvider.nib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6EF351093AE5FB00159BD0 /* UKFeedbackProvider.nib */; };
+		3D6EF357093AE5FB00159BD0 /* UKUpdateChecker.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D6EF353093AE5FB00159BD0 /* UKUpdateChecker.strings */; };
+		3DB81081085F0DD90033AA8C /* NSString+CarbonUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8107F085F0DD90033AA8C /* NSString+CarbonUtilities.m */; };
+		3DB81082085F0DD90033AA8C /* NSString+CarbonUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB81080085F0DD90033AA8C /* NSString+CarbonUtilities.h */; };
+		3DB81099085F0E730033AA8C /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB81097085F0E730033AA8C /* Carbon.framework */; };
+		3DB8109A085F0E730033AA8C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB81098085F0E730033AA8C /* IOKit.framework */; };
+		3DB813FC085F34480033AA8C /* UKFilePathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB813FA085F34480033AA8C /* UKFilePathView.m */; };
+		3DB813FD085F34480033AA8C /* UKFilePathView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB813FB085F34480033AA8C /* UKFilePathView.h */; };
+		3DB81405085F345D0033AA8C /* UKGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB81403085F345D0033AA8C /* UKGraphics.h */; };
+		3DB81406085F345D0033AA8C /* UKGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB81404085F345D0033AA8C /* UKGraphics.m */; };
+		3DB81419085F39010033AA8C /* Players.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DB81417085F39010033AA8C /* Players.plist */; };
+		3DB81988085F5E6A0033AA8C /* NSFrameView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB81984085F5E6A0033AA8C /* NSFrameView.h */; };
+		3DB81989085F5E6A0033AA8C /* NSGrayFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB81985085F5E6A0033AA8C /* NSGrayFrame.h */; };
+		3DB8198A085F5E6A0033AA8C /* NSThemeFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB81986085F5E6A0033AA8C /* NSThemeFrame.h */; };
+		3DB8198B085F5E6A0033AA8C /* NSTitledFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB81987085F5E6A0033AA8C /* NSTitledFrame.h */; };
+		3DB8198F085F5E790033AA8C /* UKCustomWindowFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8198D085F5E790033AA8C /* UKCustomWindowFrame.m */; };
+		3DB81990085F5E790033AA8C /* UKCustomWindowFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB8198E085F5E790033AA8C /* UKCustomWindowFrame.h */; };
+		3DB819D3085F6B1D0033AA8C /* MacPAD.url in Resources */ = {isa = PBXBuildFile; fileRef = 3DB819D2085F6B1D0033AA8C /* MacPAD.url */; };
+		3DB819DA085F6B760033AA8C /* UKUpdateChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB819D8085F6B760033AA8C /* UKUpdateChecker.h */; };
+		3DB819DB085F6B760033AA8C /* UKUpdateChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB819D9085F6B760033AA8C /* UKUpdateChecker.m */; };
+		3DB819E2085F6BBD0033AA8C /* UKFeedbackProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB819E0085F6BBD0033AA8C /* UKFeedbackProvider.m */; };
+		3DB819E3085F6BBD0033AA8C /* UKFeedbackProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB819E1085F6BBD0033AA8C /* UKFeedbackProvider.h */; };
+		3DB81A12085F6ED20033AA8C /* Message.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB81A11085F6ED20033AA8C /* Message.framework */; };
+		3DB81A21085F6F780033AA8C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DB81A1F085F6F780033AA8C /* Localizable.strings */; };
+		3DBBD869085F0D4C006C22E5 /* NSWorkspace+TypeOfVolumeAtPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DBBD867085F0D4C006C22E5 /* NSWorkspace+TypeOfVolumeAtPath.h */; };
+		3DBBD86A085F0D4C006C22E5 /* NSWorkspace+TypeOfVolumeAtPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBBD868085F0D4C006C22E5 /* NSWorkspace+TypeOfVolumeAtPath.m */; };
+		3DDF48F609D547860033B811 /* UKITunesLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DDF48F409D547860033B811 /* UKITunesLibrary.h */; };
+		3DDF48F709D547860033B811 /* UKITunesLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF48F509D547860033B811 /* UKITunesLibrary.m */; };
+		3DDF490D09D54AD80033B811 /* UKITunesPlaylist.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DDF490B09D54AD80033B811 /* UKITunesPlaylist.h */; };
+		3DDF490E09D54AD80033B811 /* UKITunesPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF490C09D54AD80033B811 /* UKITunesPlaylist.m */; };
+		3DDF4D8B09D57B670033B811 /* itunes_folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DDF4D8909D57B670033B811 /* itunes_folder.png */; };
+		3DF147CE0868BC0400091010 /* TrackStorerIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3DF147CD0868BC0400091010 /* TrackStorerIcon.icns */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* TrackStorer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackStorer_Prefix.pch; sourceTree = "<group>"; };
+		3D07A7EA087C51B8008FCE3C /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/itunes_podcasts.png; sourceTree = "<group>"; };
+		3D17BB0D08644BFF000DD11D /* English */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = English; path = English.lproj/blue_gradient.jpg; sourceTree = "<group>"; };
+		3D17BB4108645368000DD11D /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/sync_btn_disabled.png; sourceTree = "<group>"; };
+		3D17BB4308645368000DD11D /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/sync_btn_enabled.png; sourceTree = "<group>"; };
+		3D17BB4508645368000DD11D /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/sync_btn_pressed.png; sourceTree = "<group>"; };
+		3D2E6D990862252F006E6091 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/itunes_library.png; sourceTree = "<group>"; };
+		3D2E6D9B0862252F006E6091 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/itunes_simple_playlist.png; sourceTree = "<group>"; };
+		3D2E6D9D0862252F006E6091 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/itunes_smart_playlist.png; sourceTree = "<group>"; };
+		3D2E6E2E086239F6006E6091 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
+		3D46A479085E187A0066EB49 /* UKTrackStorerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKTrackStorerAppDelegate.h; sourceTree = "<group>"; };
+		3D46A47A085E187A0066EB49 /* UKTrackStorerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKTrackStorerAppDelegate.m; sourceTree = "<group>"; };
+		3D6EF350093AE5FB00159BD0 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = English; path = ../UliKit/English.lproj/PathArrow.tiff; sourceTree = SOURCE_ROOT; };
+		3D6EF352093AE5FB00159BD0 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ../UliKit/English.lproj/UKFeedbackProvider.nib; sourceTree = SOURCE_ROOT; };
+		3D6EF354093AE5FB00159BD0 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = ../UliKit/English.lproj/UKUpdateChecker.strings; sourceTree = SOURCE_ROOT; };
+		3DB8107F085F0DD90033AA8C /* NSString+CarbonUtilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSString+CarbonUtilities.m"; path = "../UliKit/NSString+CarbonUtilities.m"; sourceTree = "<group>"; };
+		3DB81080085F0DD90033AA8C /* NSString+CarbonUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSString+CarbonUtilities.h"; path = "../UliKit/NSString+CarbonUtilities.h"; sourceTree = "<group>"; };
+		3DB81097085F0E730033AA8C /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		3DB81098085F0E730033AA8C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		3DB813FA085F34480033AA8C /* UKFilePathView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKFilePathView.m; path = ../UliKit/UKFilePathView.m; sourceTree = "<group>"; };
+		3DB813FB085F34480033AA8C /* UKFilePathView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKFilePathView.h; path = ../UliKit/UKFilePathView.h; sourceTree = "<group>"; };
+		3DB81403085F345D0033AA8C /* UKGraphics.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKGraphics.h; path = ../UliKit/UKGraphics.h; sourceTree = "<group>"; };
+		3DB81404085F345D0033AA8C /* UKGraphics.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKGraphics.m; path = ../UliKit/UKGraphics.m; sourceTree = "<group>"; };
+		3DB81418085F39010033AA8C /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = English; path = English.lproj/Players.plist; sourceTree = "<group>"; };
+		3DB81984085F5E6A0033AA8C /* NSFrameView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSFrameView.h; sourceTree = "<group>"; };
+		3DB81985085F5E6A0033AA8C /* NSGrayFrame.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSGrayFrame.h; sourceTree = "<group>"; };
+		3DB81986085F5E6A0033AA8C /* NSThemeFrame.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSThemeFrame.h; sourceTree = "<group>"; };
+		3DB81987085F5E6A0033AA8C /* NSTitledFrame.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSTitledFrame.h; sourceTree = "<group>"; };
+		3DB8198D085F5E790033AA8C /* UKCustomWindowFrame.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKCustomWindowFrame.m; path = ../UliKit/UKCustomWindowFrame.m; sourceTree = "<group>"; };
+		3DB8198E085F5E790033AA8C /* UKCustomWindowFrame.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKCustomWindowFrame.h; path = ../UliKit/UKCustomWindowFrame.h; sourceTree = "<group>"; };
+		3DB819D2085F6B1D0033AA8C /* MacPAD.url */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = MacPAD.url; sourceTree = "<group>"; };
+		3DB819D8085F6B760033AA8C /* UKUpdateChecker.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKUpdateChecker.h; path = ../UliKit/UKUpdateChecker.h; sourceTree = "<group>"; };
+		3DB819D9085F6B760033AA8C /* UKUpdateChecker.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKUpdateChecker.m; path = ../UliKit/UKUpdateChecker.m; sourceTree = "<group>"; };
+		3DB819E0085F6BBD0033AA8C /* UKFeedbackProvider.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKFeedbackProvider.m; path = ../UliKit/UKFeedbackProvider.m; sourceTree = "<group>"; };
+		3DB819E1085F6BBD0033AA8C /* UKFeedbackProvider.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKFeedbackProvider.h; path = ../UliKit/UKFeedbackProvider.h; sourceTree = "<group>"; };
+		3DB81A11085F6ED20033AA8C /* Message.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Message.framework; path = /System/Library/Frameworks/Message.framework; sourceTree = "<absolute>"; };
+		3DB81A20085F6F780033AA8C /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3DBBD867085F0D4C006C22E5 /* NSWorkspace+TypeOfVolumeAtPath.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSWorkspace+TypeOfVolumeAtPath.h"; path = "../UliKit/NSWorkspace+TypeOfVolumeAtPath.h"; sourceTree = "<group>"; };
+		3DBBD868085F0D4C006C22E5 /* NSWorkspace+TypeOfVolumeAtPath.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSWorkspace+TypeOfVolumeAtPath.m"; path = "../UliKit/NSWorkspace+TypeOfVolumeAtPath.m"; sourceTree = "<group>"; };
+		3DDF48F409D547860033B811 /* UKITunesLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKITunesLibrary.h; sourceTree = "<group>"; };
+		3DDF48F509D547860033B811 /* UKITunesLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKITunesLibrary.m; sourceTree = "<group>"; };
+		3DDF490B09D54AD80033B811 /* UKITunesPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKITunesPlaylist.h; sourceTree = "<group>"; };
+		3DDF490C09D54AD80033B811 /* UKITunesPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKITunesPlaylist.m; sourceTree = "<group>"; };
+		3DDF4D8A09D57B670033B811 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/itunes_folder.png; sourceTree = "<group>"; };
+		3DF147CD0868BC0400091010 /* TrackStorerIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TrackStorerIcon.icns; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TrackStorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackStorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				3DB81099085F0E730033AA8C /* Carbon.framework in Frameworks */,
+				3DB8109A085F0E730033AA8C /* IOKit.framework in Frameworks */,
+				3DB81A12085F6ED20033AA8C /* Message.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3D46A479085E187A0066EB49 /* UKTrackStorerAppDelegate.h */,
+				3D46A47A085E187A0066EB49 /* UKTrackStorerAppDelegate.m */,
+				3DDF491309D54BB60033B811 /* UKItunesLibrary */,
+				3DBBD86D085F0D4D006C22E5 /* UliKit */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				3DB81097085F0E730033AA8C /* Carbon.framework */,
+				3DB81098085F0E730033AA8C /* IOKit.framework */,
+				3DB81A11085F6ED20033AA8C /* Message.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TrackStorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TrackStorer */ = {
+			isa = PBXGroup;
+			children = (
+				3D2E6E2E086239F6006E6091 /* TODO.txt */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = TrackStorer;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TrackStorer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				3DB81A1F085F6F780033AA8C /* Localizable.strings */,
+				3D6EF34F093AE5FB00159BD0 /* PathArrow.tiff */,
+				3D6EF351093AE5FB00159BD0 /* UKFeedbackProvider.nib */,
+				3D6EF353093AE5FB00159BD0 /* UKUpdateChecker.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				3DB81417085F39010033AA8C /* Players.plist */,
+				3D17BB0C08644BFF000DD11D /* blue_gradient.jpg */,
+				3D2E6D980862252F006E6091 /* itunes_library.png */,
+				3D2E6D9A0862252F006E6091 /* itunes_simple_playlist.png */,
+				3D2E6D9C0862252F006E6091 /* itunes_smart_playlist.png */,
+				3D07A7E9087C51B8008FCE3C /* itunes_podcasts.png */,
+				3DDF4D8909D57B670033B811 /* itunes_folder.png */,
+				3D17BB4008645368000DD11D /* sync_btn_disabled.png */,
+				3D17BB4208645368000DD11D /* sync_btn_enabled.png */,
+				3D17BB4408645368000DD11D /* sync_btn_pressed.png */,
+				3DB819D2085F6B1D0033AA8C /* MacPAD.url */,
+				3DF147CD0868BC0400091010 /* TrackStorerIcon.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DB81983085F5E6A0033AA8C /* PrivateHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				3DB81984085F5E6A0033AA8C /* NSFrameView.h */,
+				3DB81985085F5E6A0033AA8C /* NSGrayFrame.h */,
+				3DB81986085F5E6A0033AA8C /* NSThemeFrame.h */,
+				3DB81987085F5E6A0033AA8C /* NSTitledFrame.h */,
+			);
+			name = PrivateHeaders;
+			path = ../UliKit/PrivateHeaders;
+			sourceTree = "<group>";
+		};
+		3DBBD86D085F0D4D006C22E5 /* UliKit */ = {
+			isa = PBXGroup;
+			children = (
+				3DBBD867085F0D4C006C22E5 /* NSWorkspace+TypeOfVolumeAtPath.h */,
+				3DBBD868085F0D4C006C22E5 /* NSWorkspace+TypeOfVolumeAtPath.m */,
+				3DB81080085F0DD90033AA8C /* NSString+CarbonUtilities.h */,
+				3DB8107F085F0DD90033AA8C /* NSString+CarbonUtilities.m */,
+				3DB813FB085F34480033AA8C /* UKFilePathView.h */,
+				3DB813FA085F34480033AA8C /* UKFilePathView.m */,
+				3DB81403085F345D0033AA8C /* UKGraphics.h */,
+				3DB81404085F345D0033AA8C /* UKGraphics.m */,
+				3DB8198E085F5E790033AA8C /* UKCustomWindowFrame.h */,
+				3DB8198D085F5E790033AA8C /* UKCustomWindowFrame.m */,
+				3DB81983085F5E6A0033AA8C /* PrivateHeaders */,
+				3DB819D8085F6B760033AA8C /* UKUpdateChecker.h */,
+				3DB819D9085F6B760033AA8C /* UKUpdateChecker.m */,
+				3DB819E1085F6BBD0033AA8C /* UKFeedbackProvider.h */,
+				3DB819E0085F6BBD0033AA8C /* UKFeedbackProvider.m */,
+			);
+			name = UliKit;
+			sourceTree = "<group>";
+		};
+		3DDF491309D54BB60033B811 /* UKItunesLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				3DDF48F409D547860033B811 /* UKITunesLibrary.h */,
+				3DDF48F509D547860033B811 /* UKITunesLibrary.m */,
+				3DDF490B09D54AD80033B811 /* UKITunesPlaylist.h */,
+				3DDF490C09D54AD80033B811 /* UKITunesPlaylist.m */,
+			);
+			name = UKItunesLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D2E6E2208623812006E6091 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D46A47B085E187A0066EB49 /* UKTrackStorerAppDelegate.h in Headers */,
+				3DBBD869085F0D4C006C22E5 /* NSWorkspace+TypeOfVolumeAtPath.h in Headers */,
+				3DB81082085F0DD90033AA8C /* NSString+CarbonUtilities.h in Headers */,
+				3DB813FD085F34480033AA8C /* UKFilePathView.h in Headers */,
+				3DB81405085F345D0033AA8C /* UKGraphics.h in Headers */,
+				3DB81988085F5E6A0033AA8C /* NSFrameView.h in Headers */,
+				3DB81989085F5E6A0033AA8C /* NSGrayFrame.h in Headers */,
+				3DB8198A085F5E6A0033AA8C /* NSThemeFrame.h in Headers */,
+				3DB8198B085F5E6A0033AA8C /* NSTitledFrame.h in Headers */,
+				3DB81990085F5E790033AA8C /* UKCustomWindowFrame.h in Headers */,
+				3DB819DA085F6B760033AA8C /* UKUpdateChecker.h in Headers */,
+				3DB819E3085F6BBD0033AA8C /* UKFeedbackProvider.h in Headers */,
+				3DDF48F609D547860033B811 /* UKITunesLibrary.h in Headers */,
+				3DDF490D09D54AD80033B811 /* UKITunesPlaylist.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TrackStorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D9CAB0E08865F1000AD1F8D /* Build configuration list for PBXNativeTarget "TrackStorer" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				3D2E6E2208623812006E6091 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackStorer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TrackStorer;
+			productReference = 8D1107320486CEB800E47090 /* TrackStorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3D9CAB1208865F1000AD1F8D /* Build configuration list for PBXProject "TrackStorer" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TrackStorer */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TrackStorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				3DB81419085F39010033AA8C /* Players.plist in Resources */,
+				3DB819D3085F6B1D0033AA8C /* MacPAD.url in Resources */,
+				3DB81A21085F6F780033AA8C /* Localizable.strings in Resources */,
+				3D2E6D9E0862252F006E6091 /* itunes_library.png in Resources */,
+				3D2E6D9F0862252F006E6091 /* itunes_simple_playlist.png in Resources */,
+				3D2E6DA00862252F006E6091 /* itunes_smart_playlist.png in Resources */,
+				3D17BB0E08644BFF000DD11D /* blue_gradient.jpg in Resources */,
+				3D17BB4608645368000DD11D /* sync_btn_disabled.png in Resources */,
+				3D17BB4708645368000DD11D /* sync_btn_enabled.png in Resources */,
+				3D17BB4808645368000DD11D /* sync_btn_pressed.png in Resources */,
+				3DF147CE0868BC0400091010 /* TrackStorerIcon.icns in Resources */,
+				3D07A7EB087C51B8008FCE3C /* itunes_podcasts.png in Resources */,
+				3D6EF355093AE5FB00159BD0 /* PathArrow.tiff in Resources */,
+				3D6EF356093AE5FB00159BD0 /* UKFeedbackProvider.nib in Resources */,
+				3D6EF357093AE5FB00159BD0 /* UKUpdateChecker.strings in Resources */,
+				3DDF4D8B09D57B670033B811 /* itunes_folder.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				3D46A47C085E187A0066EB49 /* UKTrackStorerAppDelegate.m in Sources */,
+				3DBBD86A085F0D4C006C22E5 /* NSWorkspace+TypeOfVolumeAtPath.m in Sources */,
+				3DB81081085F0DD90033AA8C /* NSString+CarbonUtilities.m in Sources */,
+				3DB813FC085F34480033AA8C /* UKFilePathView.m in Sources */,
+				3DB81406085F345D0033AA8C /* UKGraphics.m in Sources */,
+				3DB8198F085F5E790033AA8C /* UKCustomWindowFrame.m in Sources */,
+				3DB819DB085F6B760033AA8C /* UKUpdateChecker.m in Sources */,
+				3DB819E2085F6BBD0033AA8C /* UKFeedbackProvider.m in Sources */,
+				3DDF48F709D547860033B811 /* UKITunesLibrary.m in Sources */,
+				3DDF490E09D54AD80033B811 /* UKITunesPlaylist.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		3D07A7E9087C51B8008FCE3C /* itunes_podcasts.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D07A7EA087C51B8008FCE3C /* English */,
+			);
+			name = itunes_podcasts.png;
+			sourceTree = "<group>";
+		};
+		3D17BB0C08644BFF000DD11D /* blue_gradient.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D17BB0D08644BFF000DD11D /* English */,
+			);
+			name = blue_gradient.jpg;
+			sourceTree = "<group>";
+		};
+		3D17BB4008645368000DD11D /* sync_btn_disabled.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D17BB4108645368000DD11D /* English */,
+			);
+			name = sync_btn_disabled.png;
+			sourceTree = "<group>";
+		};
+		3D17BB4208645368000DD11D /* sync_btn_enabled.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D17BB4308645368000DD11D /* English */,
+			);
+			name = sync_btn_enabled.png;
+			sourceTree = "<group>";
+		};
+		3D17BB4408645368000DD11D /* sync_btn_pressed.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D17BB4508645368000DD11D /* English */,
+			);
+			name = sync_btn_pressed.png;
+			sourceTree = "<group>";
+		};
+		3D2E6D980862252F006E6091 /* itunes_library.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D2E6D990862252F006E6091 /* English */,
+			);
+			name = itunes_library.png;
+			sourceTree = "<group>";
+		};
+		3D2E6D9A0862252F006E6091 /* itunes_simple_playlist.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D2E6D9B0862252F006E6091 /* English */,
+			);
+			name = itunes_simple_playlist.png;
+			sourceTree = "<group>";
+		};
+		3D2E6D9C0862252F006E6091 /* itunes_smart_playlist.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D2E6D9D0862252F006E6091 /* English */,
+			);
+			name = itunes_smart_playlist.png;
+			sourceTree = "<group>";
+		};
+		3D6EF34F093AE5FB00159BD0 /* PathArrow.tiff */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6EF350093AE5FB00159BD0 /* English */,
+			);
+			name = PathArrow.tiff;
+			sourceTree = "<group>";
+		};
+		3D6EF351093AE5FB00159BD0 /* UKFeedbackProvider.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6EF352093AE5FB00159BD0 /* English */,
+			);
+			name = UKFeedbackProvider.nib;
+			sourceTree = "<group>";
+		};
+		3D6EF353093AE5FB00159BD0 /* UKUpdateChecker.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6EF354093AE5FB00159BD0 /* English */,
+			);
+			name = UKUpdateChecker.strings;
+			sourceTree = "<group>";
+		};
+		3DB81417085F39010033AA8C /* Players.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB81418085F39010033AA8C /* English */,
+			);
+			name = Players.plist;
+			sourceTree = "<group>";
+		};
+		3DB81A1F085F6F780033AA8C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB81A20085F6F780033AA8C /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		3DDF4D8909D57B670033B811 /* itunes_folder.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DDF4D8A09D57B670033B811 /* English */,
+			);
+			name = itunes_folder.png;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D9CAB0F08865F1000AD1F8D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrackStorer_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TrackStorer;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		3D9CAB1008865F1000AD1F8D /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrackStorer_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TrackStorer;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		3D9CAB1108865F1000AD1F8D /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrackStorer_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TrackStorer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		3D9CAB1308865F1000AD1F8D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		3D9CAB1408865F1000AD1F8D /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		3D9CAB1508865F1000AD1F8D /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D9CAB0E08865F1000AD1F8D /* Build configuration list for PBXNativeTarget "TrackStorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9CAB0F08865F1000AD1F8D /* Development */,
+				3D9CAB1008865F1000AD1F8D /* Deployment */,
+				3D9CAB1108865F1000AD1F8D /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		3D9CAB1208865F1000AD1F8D /* Build configuration list for PBXProject "TrackStorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9CAB1308865F1000AD1F8D /* Development */,
+				3D9CAB1408865F1000AD1F8D /* Deployment */,
+				3D9CAB1508865F1000AD1F8D /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
