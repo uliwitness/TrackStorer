@@ -86,7 +86,7 @@
 		3DB813FB085F34480033AA8C /* UKFilePathView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKFilePathView.h; path = ../UliKit/UKFilePathView.h; sourceTree = "<group>"; };
 		3DB81403085F345D0033AA8C /* UKGraphics.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UKGraphics.h; path = ../UliKit/UKGraphics.h; sourceTree = "<group>"; };
 		3DB81404085F345D0033AA8C /* UKGraphics.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = UKGraphics.m; path = ../UliKit/UKGraphics.m; sourceTree = "<group>"; };
-		3DB81418085F39010033AA8C /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = English; path = English.lproj/Players.plist; sourceTree = "<group>"; };
+		3DB81418085F39010033AA8C /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/Players.plist; sourceTree = "<group>"; };
 		3DB81984085F5E6A0033AA8C /* NSFrameView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSFrameView.h; sourceTree = "<group>"; };
 		3DB81985085F5E6A0033AA8C /* NSGrayFrame.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSGrayFrame.h; sourceTree = "<group>"; };
 		3DB81986085F5E6A0033AA8C /* NSThemeFrame.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSThemeFrame.h; sourceTree = "<group>"; };
@@ -320,9 +320,18 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 3D9CAB1208865F1000AD1F8D /* Build configuration list for PBXProject "TrackStorer" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* TrackStorer */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* TrackStorer */,
 			);
