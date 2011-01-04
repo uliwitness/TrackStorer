@@ -50,6 +50,8 @@
 		3DDF490E09D54AD80033B811 /* UKITunesPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF490C09D54AD80033B811 /* UKITunesPlaylist.m */; };
 		3DDF4D8B09D57B670033B811 /* itunes_folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DDF4D8909D57B670033B811 /* itunes_folder.png */; };
 		3DF147CE0868BC0400091010 /* TrackStorerIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3DF147CD0868BC0400091010 /* TrackStorerIcon.icns */; };
+		55CFBCCE12D32DFE007B3627 /* UKFadedDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = 55CFBCCC12D32DFE007B3627 /* UKFadedDrawing.h */; };
+		55CFBCCF12D32DFE007B3627 /* UKFadedDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CFBCCD12D32DFE007B3627 /* UKFadedDrawing.m */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -108,6 +110,8 @@
 		3DDF490C09D54AD80033B811 /* UKITunesPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKITunesPlaylist.m; sourceTree = "<group>"; };
 		3DDF4D8A09D57B670033B811 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/itunes_folder.png; sourceTree = "<group>"; };
 		3DF147CD0868BC0400091010 /* TrackStorerIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TrackStorerIcon.icns; sourceTree = "<group>"; };
+		55CFBCCC12D32DFE007B3627 /* UKFadedDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UKFadedDrawing.h; path = ../UliKit/UKFadedDrawing.h; sourceTree = SOURCE_ROOT; };
+		55CFBCCD12D32DFE007B3627 /* UKFadedDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UKFadedDrawing.m; path = ../UliKit/UKFadedDrawing.m; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* TrackStorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackStorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -246,6 +250,8 @@
 				3DB813FA085F34480033AA8C /* UKFilePathView.m */,
 				3DB81403085F345D0033AA8C /* UKGraphics.h */,
 				3DB81404085F345D0033AA8C /* UKGraphics.m */,
+				55CFBCCC12D32DFE007B3627 /* UKFadedDrawing.h */,
+				55CFBCCD12D32DFE007B3627 /* UKFadedDrawing.m */,
 				3DB8198E085F5E790033AA8C /* UKCustomWindowFrame.h */,
 				3DB8198D085F5E790033AA8C /* UKCustomWindowFrame.m */,
 				3DB81983085F5E6A0033AA8C /* PrivateHeaders */,
@@ -289,6 +295,7 @@
 				3DB819E3085F6BBD0033AA8C /* UKFeedbackProvider.h in Headers */,
 				3DDF48F609D547860033B811 /* UKITunesLibrary.h in Headers */,
 				3DDF490D09D54AD80033B811 /* UKITunesPlaylist.h in Headers */,
+				55CFBCCE12D32DFE007B3627 /* UKFadedDrawing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +389,7 @@
 				3DB819E2085F6BBD0033AA8C /* UKFeedbackProvider.m in Sources */,
 				3DDF48F709D547860033B811 /* UKITunesLibrary.m in Sources */,
 				3DDF490E09D54AD80033B811 /* UKITunesPlaylist.m in Sources */,
+				55CFBCCF12D32DFE007B3627 /* UKFadedDrawing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

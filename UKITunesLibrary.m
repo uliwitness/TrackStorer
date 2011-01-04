@@ -87,7 +87,7 @@
 	NSDictionary*	foundPL = [playlistsByID objectForKey: nme];
 	if( !foundPL )
 	{
-		NSLLog(@"foundPL = %@", foundPL);
+		NSLog(@"foundPL = %@", foundPL);
 		return nil;
 	}
 	
