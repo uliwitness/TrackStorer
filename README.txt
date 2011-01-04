@@ -3,6 +3,11 @@ TRACKSTORER
 TrackStorer is a little app that I created ages ago to more easily transfer MP3 music files from iTunes to my 3rd-party MP3 player that can be mounted as USB storage.
 
 
+IMPORTANT!
+
+You *must* check out UliKit into a folder next to this one, or it will not find some needed files.
+
+
 FAQ
 
 Q: Does TrackStorer support my MP3 player that doesn't have Mac drivers?
