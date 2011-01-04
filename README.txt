@@ -19,7 +19,7 @@ A: You have the source code. Edit the Players.plist to add the specifics of your
 Q: Where can I get support for TrackStorer?
 A: Nowhere. TrackStorer is provided "as is". If it works for you, fine. If it doesn't, tough luck. I'm making this code available because I keep getting asked.
 
-Q: Will you update TrackStorer to work with the changed library format in future iTunes releases?
+Q: Will you update TrackStorer to work with the new library format in current iTunes releases?
 A: Probably not. But you have the source code. Fix it and send me a pull request.
 
 
