@@ -11,7 +11,6 @@
 // -----------------------------------------------------------------------------
 
 #import "UKTrackStorerAppDelegate.h"
-#import "UKCustomWindowFrame.h"
 #import "UKITunesLibrary.h"
 #import "NSWorkspace+TypeOfVolumeAtPath.h"
 
@@ -96,6 +95,8 @@
     if( pdPath )
         [playerPopUp selectItemWithTitle: pdPath];
     [playerPopUp synchronizeTitleAndSelectedItem];
+	
+	[[playlistsView window] setBackgroundColor: [NSColor colorWithPatternImage: [NSImage imageNamed: @"blue_gradient"]]];
 }
 
 
